@@ -6,16 +6,16 @@ const FAQs = [
         answer: "An .enc file is an encrypted or encoded file. In the context of WhatsApp Web, it's often a profile picture or media file that has been saved with a protective extension. Our tool simply helps you restore it to a viewable format."
     },
     {
-        question: "Is this converter safe?",
-        answer: "Yes, absolutely. The conversion happens entirely within your browser. You are NOT uploading your files to any server. Your privacy is 100% protected."
+        question: "Is this Enc to JPG converter safe?",
+        answer: "Yes, absolutely. The conversion from .enc to jpg or jpeg or png happens entirely within your browser. You are NOT uploading your files to any server. Your privacy is 100% protected."
     },
     {
-        question: "Can I convert multiple files at once?",
+        question: "Can I convert multiple .enc files to jpg at once?",
         answer: "Currently, we focus on converting one file at a time to ensure maximum quality and privacy correctness. Bulk conversion features may be added in the future."
     },
     {
-        question: "Why does my WhatsApp image save as .enc?",
-        answer: "This is often due to how the browser handles cached images or how WhatsApp Web serves media to prevent direct scraping. Changing the extension usually fixes it."
+        question: "Why does WhatsApp web profile picture save as .enc?",
+        answer: "This is often due to how the browser handles cached images or how WhatsApp Web serves media to prevent direct scraping. Changing the extension usually fixes it so exactly we do in our platform"
     }
 ];
 

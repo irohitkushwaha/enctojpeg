@@ -9,9 +9,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Enc to JPEG Converter | Enc Converter",
-  description: "Securely convert .enc files from WhatsApp Web to JPEG images directly in your browser. No server uploads, 100% private and free.",
-  keywords: ["enc to jpg", "enc converter", "whatsapp enc to jpg", "convert enc file", "enc to jpeg"],
+  title: "Enc to JPG| Enc file to JPG converter",
+  description: "Securely convert .enc files from WhatsApp Web to JPG (JPEG) images directly in your browser. No server uploads, 100% private and free.",
+  keywords: ["enc to jpg", "enc converter", "whatsapp enc to jpg", "ENC file to jpg", "enc to jpeg"],
   authors: [{ name: "EncConverter" }],
   viewport: "width=device-width, initial-scale=1",
   themeColor: "#ffffff",

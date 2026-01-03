@@ -5,10 +5,10 @@ import { useState, useRef } from 'react';
 type ConversionStatus = 'idle' | 'ready' | 'converting' | 'completed';
 
 interface ConversionSectionProps {
-    targetFormat?: 'jpeg' | 'png';
+    targetFormat?: 'jpg' | 'png';
 }
 
-export default function ConversionSection({ targetFormat = 'jpeg' }: ConversionSectionProps) {
+export default function ConversionSection({ targetFormat = 'jpg' }: ConversionSectionProps) {
     const [file, setFile] = useState<File | null>(null);
     const [error, setError] = useState<string | null>(null);
     const [status, setStatus] = useState<ConversionStatus>('idle');
@@ -16,8 +16,8 @@ export default function ConversionSection({ targetFormat = 'jpeg' }: ConversionS
     const fileInputRef = useRef<HTMLInputElement>(null);
 
     const displayFormat = targetFormat.toUpperCase();
-    const mimeType = targetFormat === 'jpeg' ? 'image/jpeg' : 'image/png';
-    const extension = `.${targetFormat}`;
+    const mimeType = targetFormat === 'jpg' ? 'image/jpg' : 'image/png';
+    const extension = `.${targetFormat}`
 
     const handleDragOver = (e: React.DragEvent) => {
         e.preventDefault();
@@ -170,7 +170,7 @@ export default function ConversionSection({ targetFormat = 'jpeg' }: ConversionS
                                 ) : (
                                     <>
                                         <p className="text-2xl font-semibold text-gray-900 tracking-tight">
-                                            Drop .enc file here
+                                            Drop .enc file here to convert into JPG
                                         </p>
                                         <p className="text-base text-gray-400 font-medium">
                                             or click to browse
