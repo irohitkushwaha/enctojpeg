@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   authors: [{ name: "EncConverter" }],
   viewport: "width=device-width, initial-scale=1",
   themeColor: "#ffffff",
+  other: {
+    "google-adsense-account": "ca-pub-4258584216813588",
+  },
 };
 
 export default function RootLayout({
